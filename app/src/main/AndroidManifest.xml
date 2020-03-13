@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thakurintl.uizprestashopnew">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".activity.OrdersHistoryActivity"
+            android:parentActivityName=".activity.MyProfileActivity" />
+        <activity
+            android:name=".activity.ProductItemActivity"
+            android:theme="@style/AppTheme.ActionBar.Transparent" />
+        <activity
+            android:name=".activity.MyPersonalInfoActivity"
+            android:parentActivityName=".activity.MyProfileActivity" />
+        <activity
+            android:name=".activity.MyAddressActivity"
+            android:parentActivityName=".activity.MyProfileActivity" />
+        <activity
+            android:name=".activity.EditPasswordActivity"
+            android:parentActivityName=".activity.MyProfileActivity" />
+        <activity
+            android:name=".activity.MyProfileActivity"
+            android:parentActivityName=".activity.HomeActivity" />
+        <activity
+            android:name=".activity.LoginSignupActivity"
+            android:parentActivityName=".activity.HomeActivity" />
+        <activity
+            android:name=".activity.SearchActivity"
+            android:parentActivityName=".activity.HomeActivity" />
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:parentActivityName=".activity.HomeActivity" />
+        <activity android:name=".activity.RedirectActivity" />
+        <activity
+            android:name=".activity.AllEmployeeActivity"
+            android:parentActivityName=".activity.HomeActivity" />
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.AllCategoryActivity"
+            android:parentActivityName=".activity.HomeActivity" />
+        <activity
+            android:name=".activity.CartActivity"
+            android:parentActivityName=".activity.HomeActivity" />
+        <activity android:name=".activity.HomeActivity" />
+    </application>
+
+</manifest>

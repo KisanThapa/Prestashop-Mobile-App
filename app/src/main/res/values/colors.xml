@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#050D44</color>
+    <color name="colorPrimaryDark">#0A1142</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!--Custom Colors-->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="background_color">#FFFFFF</color>
+
+
+    <!-- Green -->
+    <color name="green_temp">#583CDF</color>
+    <color name="green_dark">#322DDF</color>
+    <color name="bright_green">#583CDF</color>
+    <color name="button_green">#583CDF</color>
+    <color name="colorLightGrey">#B1B1B1</color>
+
+
+
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="spinner_layout_background_tint">#F0F0F0</color>
+    <color name="order_bottom_sheet_background">#F8F8F8</color>
+</resources>

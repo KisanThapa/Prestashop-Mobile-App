@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">uiz PrestaShop</string>
+    <string name="string_categories">Categories</string>
+    <string name="string_view_all">View All &gt;</string>
+    <string name="string_employee">Employees</string>
+
+
+    <!--  Important Keys  -->
+    <string name="API_KEY">YEU8K8BYIQC789XX9J5I3H3856PEH95T</string>
+    <string name="BASE_URL">http://t.uiz.eu/api/</string>
+    <string name="SERVER_COOKIE_KEY">4genhaszdb8z0n8gfsigf3bzjwoswfijopusgwic7ve3od6kyxnz4hau</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_log_in_or_sign_up">Log in or Sign up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="string_my_profile">My Profile</string>
+    <string name="string_log_out">Log Out</string>
+    <string name="string_account">ACCOUNT</string>
+    <string name="string_personal_info">Personal Info</string>
+    <string name="string_my_address">My Address</string>
+    <string name="string_orders_history">Orders History</string>
+
+</resources>

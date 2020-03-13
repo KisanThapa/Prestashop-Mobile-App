@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_home_filled_black_24px" android:state_checked="true" />
+    <item android:drawable="@drawable/ic_home_outline_black_24px_" android:state_checked="false" />
+</selector>
